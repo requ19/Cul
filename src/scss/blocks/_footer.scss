@@ -1,0 +1,84 @@
+.footer {
+    padding: 60px 20px 60px;
+    background: #e8c9a179;
+    &__title {
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Alegreya', sans-serif;
+        color: #E6774F;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+
+    }
+    &__contacs {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__contacs-item {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    &__location {
+        a {
+            display: flex;
+            align-items: center;
+            p {
+                color: #757575;
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+    &__insta {
+        a {
+            display: flex;
+            align-items: center;
+            p {
+                color: #757575;
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+    &__copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            color: #757575;
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    &__tel {
+        a {
+            display: flex;
+            align-items: center;
+            p {
+                color: #757575;
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+    &__mail {
+        a {
+            display: flex;
+            align-items: center;
+            p {
+                color: #757575;
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}
