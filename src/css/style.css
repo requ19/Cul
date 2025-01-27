@@ -165,7 +165,8 @@
   height: 40px;
   color: #000;
   font-size: 24px;
-  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
   background: rgba(217, 217, 217, 0.2588235294);
   display: flex;
   justify-content: center;
@@ -422,7 +423,10 @@
   background: rgba(232, 201, 161, 0.1921568627);
 }
 .main .lullabyinfo img {
-  width: 100%;
+  width: 50%;
+}
+.main .lullabyinfo__basement-img {
+  width: 100% !important;
 }
 .main .lullabyinfo__text {
   display: flex;
@@ -516,6 +520,7 @@
 .footer__insta a {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 .footer__insta a p {
   color: #757575;
@@ -547,6 +552,7 @@
 .footer__mail a {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 .footer__mail a p {
   color: #757575;
