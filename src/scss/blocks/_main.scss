@@ -114,6 +114,10 @@
 
     .historicalmonuments {
         padding: 60px 0 90px 0;
+        .tradition-text {
+            text-align: center;
+            font-size: 30px;
+        }
         &__wrapper {
             display: flex;
             justify-content: space-between;
@@ -253,31 +257,54 @@
     // СТРАНИЦА НАСЛЕДИЕ
     .heritage {
         margin-top: 75px;
-        background: #e8c9a136;
         position: relative;
+        background: none;
+    
+        &__bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #e8c9a136;
+            filter: blur(80px); // Применяем блюр только к фону
+            z-index: 1;
+            border-radius: 16px;
+        }
+    
         &__wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
-            
             padding: 150px 0;
+            position: relative;
+            z-index: 2; // Поднимаем контент выше блюра
         }
+    
         &__text {
             @include adaptiv-font(30, 15);
             font-family: 'Nunito', sans-serif;
             text-align: center;
+            z-index: 2; // Поднимаем текст выше блюра
         }
-        &__img-bg1 {
+    
+        &__img-bg1, 
+        &__img-bg2 {
             position: absolute;
+            z-index: 2; // Поднимаем изображения выше блюра
+        }
+    
+        &__img-bg1 {
             top: -90px;
             left: 20px;
         }
+    
         &__img-bg2 {
-            position: absolute;
             bottom: -90px;
             right: 20px;
         }
     }
+    
 
     .heritageAlbom {
         padding: 45px 0;
@@ -417,6 +444,13 @@
                          
                     }
                 }
+            }
+            &-map {
+                font-size: 24px;
+                color: #000;
+                font-weight: 700;
+                font-family: 'Nunito', sans-serif;
+                margin-bottom: 80px;
             }
         }
         &__gallery {
