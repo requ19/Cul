@@ -588,6 +588,717 @@
   font-weight: 500;
 }
 
+.sulaiman-bg {
+  background-image: url("../img/sulaimantoo/bg-section.svg");
+  background-position: center;
+  background-repeat: auto;
+}
+
+.sulaiman {
+  padding: 25px;
+}
+.sulaiman__wrapper {
+  background-image: url("../img/sulaimantoo/Главное фото.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.sulaiman__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 400px 0 0 0;
+}
+.sulaiman__title h1 {
+  font-size: 5rem;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.sulaiman-info {
+  padding: 60px 0 0 0;
+}
+.sulaiman-info__title, .sulaiman-info__text1, .sulaiman-info__text2, .sulaiman-info__text3, .sulaiman-info__text4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+}
+.sulaiman-info__text2 {
+  margin-top: 30px;
+}
+.sulaiman-info__text3 {
+  margin-top: 20px;
+}
+.sulaiman-info__text4 {
+  margin-top: 20px;
+}
+.sulaiman-info__subtitle {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.sulaiman-info__img {
+  display: flex;
+  margin: 60px auto;
+}
+
+.sulaiman-places__text1, .sulaiman-places__text2, .sulaiman-places__text3, .sulaiman-places__text4, .sulaiman-places__text5, .sulaiman-places__text6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+}
+.sulaiman-places__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.sulaiman-places__subtitle {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.sulaiman-places__text1 {
+  margin-top: 30px;
+}
+.sulaiman-places__list1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  gap: 30px;
+}
+.sulaiman-places__list1 li {
+  list-style: disc;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+}
+.sulaiman-places__img1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px 0;
+}
+.sulaiman-places__img2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px 0;
+}
+.sulaiman-places__list-center {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  margin-top: 20px;
+}
+.sulaiman-places__list2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  gap: 40px;
+}
+.sulaiman-places__list2 li {
+  list-style: disc;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.sulaiman-mosque__text1, .sulaiman-mosque__text2, .sulaiman-mosque__text3, .sulaiman-mosque__text4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+}
+.sulaiman-mosque__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.sulaiman-mosque__title2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.sulaiman-mosque__title3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.sulaiman-mosque__text1 {
+  margin-top: 30px;
+}
+.sulaiman-mosque__img1 {
+  display: flex;
+  margin: 60px auto;
+}
+.sulaiman-mosque__img2 {
+  display: flex;
+  margin: 60px auto;
+}
+.sulaiman-mosque__img3 {
+  display: flex;
+  margin: 60px auto;
+}
+.sulaiman-mosque__map {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.sulaiman-mosque iframe {
+  margin: 60px 0;
+}
+
+.tashrabat-bg {
+  background-image: url("../img/sulaimantoo/bg-section.svg");
+  background-position: center;
+  background-repeat: auto;
+}
+
+.tashrabat {
+  padding: 25px;
+}
+.tashrabat__wrapper {
+  background-image: url("../img/tashrabat/Главное фото (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.tashrabat__title {
+  padding: 400px 0 0 0;
+  font-size: 5rem;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.tashrabat-second__title1, .tashrabat-second__title2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.tashrabat-second__text1, .tashrabat-second__text2, .tashrabat-second__text3, .tashrabat-second__text4, .tashrabat-second__text5, .tashrabat-second__text6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.tashrabat-second__img1 {
+  display: block;
+  margin: 60px auto;
+}
+.tashrabat-second__img2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tashrabat-third__title1, .tashrabat-third__title2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  padding: 60px 0 0 0;
+}
+.tashrabat-third__text1, .tashrabat-third__text2, .tashrabat-third__text3, .tashrabat-third__text4, .tashrabat-third__text5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.tashrabat-third__text1 {
+  margin-top: 0;
+}
+.tashrabat-third iframe {
+  margin: 60px 0;
+}
+.tashrabat-third__img1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px auto;
+}
+.tashrabat-third__map {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.manas-bg {
+  background-image: url("../img/sulaimantoo/bg-section.svg");
+  background-position: center;
+  background-repeat: auto;
+}
+
+.manas {
+  padding: 25px;
+}
+.manas__wrapper {
+  background-image: url("../img/manasGumbez/Главное фото (2).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.manas__title {
+  padding: 400px 0 0 0;
+  font-size: 5rem;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.manas-second__title1, .manas-second__title2, .manas-second__title3, .manas-second__title4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.manas-second__text1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text7 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text8 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text9 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text10 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__text11 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.manas-second__map {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.manas-second__img1, .manas-second__img3 {
+  display: block;
+  margin: 60px auto;
+}
+.manas-second__img2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px auto;
+}
+.manas-second iframe {
+  margin: 60px 0;
+}
+
+.uzgen-bg {
+  background-image: url("../img/sulaimantoo/bg-section.svg");
+  background-position: center;
+  background-repeat: auto;
+}
+
+.uzgen {
+  padding: 25px;
+}
+.uzgen__wrapper {
+  background-image: url("../img/uzgen/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.uzgen__title {
+  padding: 400px 0 0 0;
+  font-size: 5rem;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.uzgen-second__text1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text7 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text8 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text9 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__text10 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.uzgen-second__title1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.uzgen-second__title2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.uzgen-second__title3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.uzgen-second__title4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.uzgen-second__title5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.uzgen-second__title6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.uzgen-second__img1, .uzgen-second__img2 {
+  display: block;
+  margin: 60px auto;
+}
+.uzgen-second__title3 {
+  margin-top: 40px;
+}
+.uzgen-second__text3 {
+  margin-top: 0;
+}
+.uzgen-second__text4 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.uzgen-second__text5 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.uzgen-second__text6 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.uzgen-second__list1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.uzgen-second__list1 li {
+  list-style: decimal;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+}
+.uzgen-second__map {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.uzgen-second iframe {
+  margin: 60px 0;
+}
+
+.fazil-bg {
+  background-image: url("../img/sulaimantoo/bg-section.svg");
+  background-position: center;
+  background-repeat: auto;
+}
+
+.fazil {
+  padding: 25px;
+}
+.fazil__wrapper {
+  background-image: url("../img/fazil/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.fazil__title {
+  padding: 600px 0 0 0;
+  font-size: 5rem;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.fazil-second__text1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text7 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text8 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__text9 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.fazil-second__title1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.fazil-second__title2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.fazil-second__title3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.fazil-second__title4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.fazil-second__text1 {
+  margin-top: 0;
+}
+.fazil-second__text2 {
+  margin-top: 0;
+}
+.fazil-second__text6 {
+  margin-top: 0;
+}
+.fazil-second__text8 {
+  margin-top: 0;
+}
+.fazil-second__img1, .fazil-second__img2 {
+  display: block;
+  margin: 60px auto;
+}
+.fazil-second__map {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.fazil-second iframe {
+  margin: 60px 0;
+}
+
 * {
   margin: 0;
   padding: 0;

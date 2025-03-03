@@ -1,0 +1,91 @@
+.uzgen-bg {
+    background-image: url('../img/sulaimantoo/bg-section.svg');
+    background-position: center;
+    background-repeat: auto;
+}
+
+.uzgen {
+    padding: 25px;
+    &__wrapper {
+        background-image: url('../img/uzgen/bg.jpg');
+        // background-image: url('../img/tashrabat/image 89.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px;
+        width: 100%;
+        height: 100vh;
+    }
+    &__title {
+        padding: 400px 0 0 0;
+        font-size: 5rem;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            color: #fff;
+    }
+}
+
+.uzgen-second {
+    @for $i from 1 through 10 {
+        &__text#{$i} {
+            font-family:'Nunito', sans-serif;
+            font-size: 1.5rem;
+            color: #000;
+            font-weight: 500;
+            margin-top: 40px;
+        }
+    }
+
+    @for $i from 1 through 6 {
+        &__title#{$i} {
+            font-family:'Nunito', sans-serif;
+            font-size: 2rem;
+            color: #000;
+            font-weight: 700;
+        }
+    }
+    &__img1, &__img2 {
+        display: block;
+        margin: 60px auto;
+    }
+    &__title3 {
+        margin-top: 40px;
+    }
+    &__text3 {
+        margin-top: 0;
+    }
+    &__text4 {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    &__text5 {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    &__text6 {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    &__list1 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        li {
+            list-style: decimal;
+            font-family:'Nunito', sans-serif;
+            font-size: 1.5rem;
+            color: #000;
+            font-weight: 500;
+        }
+    }
+    &__map {
+        font-family:'Nunito', sans-serif;
+        color: #000;
+        font-size: 1.8rem;
+        font-weight: 700; 
+        margin-top: 80px;  
+    }
+    iframe {
+        margin: 60px 0;
+    }
+}

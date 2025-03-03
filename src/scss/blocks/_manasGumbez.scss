@@ -1,0 +1,63 @@
+.manas-bg {
+    background-image: url('../img/sulaimantoo/bg-section.svg');
+    background-position: center;
+    background-repeat: auto;
+}
+
+.manas {
+    padding: 25px;
+    &__wrapper {
+        background-image: url('../img/manasGumbez/Главное фото (2).jpg');
+        // background-image: url('../img/tashrabat/image 89.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px;
+        width: 100%;
+        height: 100vh;
+    }
+    &__title {
+        padding: 400px 0 0 0;
+        font-size: 5rem;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            color: #fff;
+    }
+}
+.manas-second {
+    &__title1,&__title2, &__title3, &__title4 {
+        font-family:'Nunito', sans-serif;
+        font-size: 2rem;
+        color: #000;
+        font-weight: 700;
+    }
+    @for $i from 1 through 11 {
+        &__text#{$i} {
+            font-family:'Nunito', sans-serif;
+            font-size: 1.5rem;
+            color: #000;
+            font-weight: 500;
+            margin-top: 40px;
+        }
+    }
+    &__map {
+        font-family:'Nunito', sans-serif;
+        color: #000;
+        font-size: 1.8rem;
+        font-weight: 700; 
+        margin-top: 80px;  
+    }
+    &__img1, &__img3 {
+        display: block;
+        margin: 60px auto;
+    }
+    &__img2 {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin: 60px auto;
+    }
+    iframe {
+        margin: 60px 0;
+    }
+}
