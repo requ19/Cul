@@ -5,6 +5,7 @@
 }
 
 .tashrabat {
+    position: relative;
     padding: 25px;
     &__wrapper {
         background-image: url('../img/tashrabat/Главное фото (1).jpg');
@@ -17,7 +18,9 @@
         height: 100vh;
     }
     &__title {
-        padding: 400px 0 0 0;
+        position: absolute;
+        left: 5.5%;
+        bottom: 100px;
         font-size: 5rem;
             font-family: 'Alegreya', sans-serif;
             font-weight: 500;
