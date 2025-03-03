@@ -26,6 +26,10 @@
                     font-weight: 700;
                     font-family: "Manrope", sans-serif;
                     color: #000;
+                    transition: .2s ease-in-out;
+                    &:hover {
+                        color: #b97a55;
+                    }
                 }
 
             }

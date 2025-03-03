@@ -81,6 +81,10 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 85px;
+            transition: .3s ease-in-out;
+            &:hover {
+                background: rgb(156, 68, 36);
+            }
         }
         &__cards {
             display: flex;
@@ -153,7 +157,7 @@
             flex-direction: column;
             border-radius: 16px;
             div {
-                width: 185px;
+                padding: 5px 18px;
                 height: 40px;
                 color: #000;
                 font-size: 24px;
@@ -220,7 +224,7 @@
             flex-direction: column;
             border-radius: 16px;
             div {
-                width: 185px;
+                padding: 5px 18px;
                 height: 40px;
                 color: #000;
                 font-family: 'Manrope', sans-serif;
