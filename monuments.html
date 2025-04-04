@@ -38,7 +38,7 @@
         </section>
         <section class="monumentgallery">
             <div class="container">
-                <div class="monumentgallery__cards">
+                <div id="posts" class="monumentgallery__cards">
                     <a href="./burana.html">
                         <div class="monumentgallery__card">
                             <img src="./src/img/Башня бурана.svg" alt="Башня Бурана">
@@ -129,5 +129,13 @@
         </div>
     </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./src/js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            loadPosts("Памятники");
+        });
+    </script>
 </body>
 </html>

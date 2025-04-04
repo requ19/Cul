@@ -172,24 +172,26 @@
                 margin: 15px;
             }
         }
-        &__card:nth-child(1) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #A6B8E0 100%);
-        }
-        &__card:nth-child(2) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #C7966F 100%);
-        }
-        &__card:nth-child(3) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #8D7644 100%);
-        }
-        &__card:nth-child(4) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E09C63 100%);
-        }
-        &__card:nth-child(5) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #9BC8DB 100%);
-        }
-        &__card:nth-child(6) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #82B6F2 100%);
-        }
+        .monumentgallery__cards {
+            a:nth-child(1) .monumentgallery__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #A6B8E0 100%);
+            }
+            a:nth-child(2) .monumentgallery__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #C7966F 100%);
+            }
+            a:nth-child(3) .monumentgallery__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #8D7644 100%);
+            }
+            a:nth-child(4) .monumentgallery__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E09C63 100%);
+            }
+            a:nth-child(5) .monumentgallery__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #9BC8DB 100%);
+            }
+            a:nth-child(6) .monumentgallery__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #82B6F2 100%);
+            }
+          }
     }
 
     .goat {
@@ -239,24 +241,26 @@
                 margin: 15px;
             }
         }
-        &__card:nth-child(1) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #B7684E 100%);
-        }
-        &__card:nth-child(2) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #FC8764 100%);
-        }
-        &__card:nth-child(3) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #D48230 100%);
-        }
-        &__card:nth-child(4) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #AF8765 100%);
-        }
-        &__card:nth-child(5) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E6E3E3 100%);
-        }
-        &__card:nth-child(6) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #82B6F2 100%);
-        }
+        .traditions__cards {
+            a:nth-child(1) .traditions__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #B7684E 100%);
+            }
+            a:nth-child(2) .traditions__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #FC8764 100%);
+            }
+            a:nth-child(3) .traditions__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #D48230 100%);
+            }
+            a:nth-child(4) .traditions__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #AF8765 100%);
+            }
+            a:nth-child(5) .traditions__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E6E3E3 100%);
+            }
+            a:nth-child(6) .traditions__card {
+                background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #82B6F2 100%);
+            }
+          }
     }
 
 
@@ -344,24 +348,26 @@
                 margin: 15px;
             }
         }
-        &__card:nth-child(1) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E8B77C 100%);
-        }
-        &__card:nth-child(2) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E9685D 100%);
-        }
-        &__card:nth-child(3) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #C69788 100%);
-        }
-        &__card:nth-child(4) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #612A25 100%);
-        }
-        &__card:nth-child(5) {
-            background: linear-gradient(180deg, #b1713c75 60%, #b1713c86 83%, #735622 100%);
-        }
-        &__card:nth-child(6) {
-            background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #B1703C 100%);
-        }
+        .heritageAlbom__cards {
+            a:nth-child(1) .heritageAlbom__card {
+              background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E8B77C 100%);
+            }
+            a:nth-child(2) .heritageAlbom__card {
+              background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E9685D 100%);
+            }
+            a:nth-child(3) .heritageAlbom__card {
+              background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #C69788 100%);
+            }
+            a:nth-child(4) .heritageAlbom__card {
+              background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #612A25 100%);
+            }
+            a:nth-child(5) .heritageAlbom__card {
+              background: linear-gradient(180deg, #b1713c75 60%, #b1713c86 83%, #735622 100%);
+            }
+            a:nth-child(6) .heritageAlbom__card {
+              background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #B1703C 100%);
+            }
+          }
     }
 
 

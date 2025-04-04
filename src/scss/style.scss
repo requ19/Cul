@@ -10,6 +10,13 @@
 @import './blocks/way';
 @import './blocks/hospitality';
 @import './blocks/nooruz';
+@import './blocks/shyrdak';
+@import './blocks/yurt';
+@import './blocks/komuz';
+@import './blocks/kokboru';
+@import './blocks/eposmanas';
+@import './blocks/aitysh';
+@import './blocks/admin';
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
@@ -43,4 +50,44 @@ html, body {
     max-width: 90.2%;
     margin: auto;
     padding: 0 15px;
+}
+
+.supa {
+    padding: 45px 0;
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 16px;
+        width: 420px;
+        height: auto;
+        img {
+            width: 100%;
+        border-radius: 16px;
+
+        }
+        div {
+            width: 185px;
+            height: 40px;
+            color: #000;
+            font-family: 'Manrope', sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            background: #d9d9d942;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 18px;
+            border: 0.5px solid #00000052;
+            margin: 15px;
+        }
+    }
 }

@@ -1,0 +1,55 @@
+.admin {
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Manrope", sans-serif;
+        margin-left: 10px;
+    }
+    &__buttons {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        button {
+            padding: 0 10px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #e0aa5ab7;
+            font-size: 13px;
+            font-weight: 500;
+            font-family: "Manrope", sans-serif;
+        }
+        .active {
+            background: #e0aa5ab7;
+
+        }
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        &_flex {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input, textarea {
+                height: 35px;
+                border-radius: 10px;
+                padding: 10px;
+                border: none;
+                background: #d1d1d1;
+            }
+        }
+        button {
+            width: 160px;
+            height: 40px;
+            background: #d1d1d1;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Manrope", sans-serif;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}

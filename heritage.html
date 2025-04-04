@@ -40,31 +40,43 @@
         </section>
         <section class="heritageAlbom">
             <div class="container">
-                <div class="heritageAlbom__cards">
-                    <div class="heritageAlbom__card">
-                        <img src="./src/img/heritage/card/юрта.svg" alt="Башня Бурана">
-                        <div>Юрта</div>
-                    </div>
-                    <div class="heritageAlbom__card">
-                        <img src="./src/img/heritage/card/шырдак.svg" alt="Башня Бурана">
-                        <div>Шырдак</div>
-                    </div>
-                    <div class="heritageAlbom__card">
-                        <img src="./src/img/heritage/card/комуз.svg" alt="Башня Бурана">
-                        <div>Комуз</div>
-                    </div>
-                    <div class="heritageAlbom__card">
-                        <img src="./src/img/heritage/card/Кок-бору 1.svg" alt="Башня Бурана">
-                        <div>Кок - бору</div>
-                    </div>
-                    <div class="heritageAlbom__card">
-                        <img src="./src/img/heritage/card/манас.svg" alt="Башня Бурана">
-                        <div>Эпос “Манас”</div>
-                    </div>
-                    <div class="heritageAlbom__card">
-                        <img src="./src/img/heritage/card/айтыш.svg" alt="Башня Бурана">
-                        <div>Айтыш</div>
-                    </div>
+                <div id="posts" class="heritageAlbom__cards supa__cards">
+                    <a href="./yurt.html">
+                        <div class="heritageAlbom__card">
+                            <img src="./src/img/heritage/card/юрта.svg" alt="Башня Бурана">
+                            <div>Юрта</div>
+                        </div>
+                    </a>
+                    <a href="./shyrdak.html">
+                        <div class="heritageAlbom__card">
+                            <img src="./src/img/heritage/card/шырдак.svg" alt="Башня Бурана">
+                            <div>Шырдак</div>
+                        </div>
+                    </a>
+                    <a href="./komuz.html">
+                        <div class="heritageAlbom__card">
+                            <img src="./src/img/heritage/card/комуз.svg" alt="Башня Бурана">
+                            <div>Комуз</div>
+                        </div>
+                    </a>
+                    <a href="./kokboru.html">
+                        <div class="heritageAlbom__card">
+                            <img src="./src/img/heritage/card/Кок-бору 1.svg" alt="Башня Бурана">
+                            <div>Кок - бору</div>
+                        </div>
+                    </a>
+                    <a href="./eposmanas.html">
+                        <div class="heritageAlbom__card">
+                            <img src="./src/img/heritage/card/манас.svg" alt="Башня Бурана">
+                            <div>Эпос “Манас”</div>
+                        </div>
+                    </a>
+                    <a href="./aitysh.html">
+                        <div class="heritageAlbom__card">
+                            <img src="./src/img/heritage/card/айтыш.svg" alt="Башня Бурана">
+                            <div>Айтыш</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -119,5 +131,12 @@
         </div>
     </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="./src/js/script.js" defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            loadPosts("Нематериальное наследие");
+        });
+    </script>
 </body>
 </html>
