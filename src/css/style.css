@@ -3771,7 +3771,7 @@
   margin-top: 1px;
 }
 
-.left {
+.admin-left {
   width: 20%;
   padding: 20px;
   display: flex;
@@ -3779,37 +3779,37 @@
   gap: 20px;
   border-right: 2px solid #D3D3D3;
 }
-.left .dashboard {
+.admin-left .dashboard {
   display: flex;
   align-items: center;
   gap: 10px;
   justify-content: center;
 }
-.left .dashboard__img {
+.admin-left .dashboard__img {
   width: 24px;
   height: 24px;
 }
-.left .dashboard__text {
+.admin-left .dashboard__text {
   font-weight: 600;
   color: #848484;
 }
-.left__line {
+.admin-left__line {
   margin: 10px 0;
   border: none;
   height: 1px;
   background-color: #D3D3D3;
 }
-.left__titles {
+.admin-left__titles {
   display: flex;
   flex-direction: column;
   gap: 30px;
   font-size: 16px;
   font-weight: 500;
 }
-.left__titles div {
+.admin-left__titles div {
   cursor: pointer;
 }
-.left__titles div:hover {
+.admin-left__titles div:hover {
   color: #e0aa5a;
 }
 
