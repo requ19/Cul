@@ -12,7 +12,12 @@
         <header class="header">
         <div class="container">
             <nav class="nav">
-                <div class="logo">Архив культурного наследия</div>
+                <a href="./index.html"><div class="logo">Архив культурного наследия</div></a>
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
                 <ul class="menu">
                     <a href="./index.html"><li class="menu-item menu-active">Главная</li></a>
                     <a href="./monuments.html"><li class="menu-item">Памятники</li></a>
@@ -71,6 +76,11 @@
             </div>
             <img class="patterns__block-right" src="./src/img/узор-right.svg" alt="images block-right">
         </section>
+        <div class="navigation-arrows">
+            <a href="previous-page.html" class="arrow left"></a>
+            <a href="/monuments.html" class="arrow right">→</a>
+          </div>
+          
     </main>
     <footer class="footer">
         <div class="container">
@@ -112,5 +122,7 @@
         </div>
     </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>

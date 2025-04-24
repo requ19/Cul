@@ -28,6 +28,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 
 html, body {
@@ -51,6 +52,37 @@ html, body {
     margin: auto;
     padding: 0 15px;
 }
+
+.navigation-arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    margin-top: 40px;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .arrow:hover {
+    background: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
 
 .supa {
     padding: 45px 0;

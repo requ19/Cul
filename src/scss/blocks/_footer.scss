@@ -85,4 +85,21 @@
             }
         }
     }
+
+    @media (max-width: 820px) {
+        .footer__contacs {
+            flex-direction: column !important;
+            align-items: start !important;
+            margin-top: 20px;
+        }
+        .footer__copyright {
+            order: 1;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .footer__contacs-item {
+            gap: 10px;
+            margin-top: 10px;
+        }
+    }
 }

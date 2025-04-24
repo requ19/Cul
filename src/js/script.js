@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const btnBurger = document.getElementById('burger');
+    const menu = document.querySelector('.menu');
+
+    if (btnBurger && menu) {
+        btnBurger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            btnBurger.classList.toggle('active');
+        });
+    }
+});
 
 const gradients = [
     'linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #E8B77C 100%)',
@@ -103,5 +114,6 @@ async function loadPosts(category) {
         `;
         postsContainer.appendChild(a);
     });
-    
 }
+
+

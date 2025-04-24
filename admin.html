@@ -7,31 +7,45 @@
     <title>Admin</title>
 </head>
 <body>
-    <div class="admin">
-        <h1 class="admin__title">Добавить новую информацию</h1>
-        <hr class="admin__line">
-        <div class="admin__buttons">
-            <button class="active">Памятники</button>
-            <button>Традиции и обычаи</button>
-            <button>Нематериальное наследие</button>
+    <div class="admin-wrapper">
+        <div class="left">
+            <div class="dashboard">
+                <img class="dashboard__img" src="./src/img/admin/dash.svg" alt="">
+                <p class="dashboard__text">Dashboard</p>
+            </div>
+            <hr class="left__line">
+            <div class="left__titles">
+                <div>Памятники</div>
+                <div>Традиции и обычаи</div>
+                <div>Нематериальное наследие</div>
+            </div>
         </div>
-        <div class="admin__form">
-            <div class="admin__form_flex">
-                <label for="title">Название:</label>
-            <input type="name" id="title" >
+        <div class="admin">
+            <h1 class="admin__title">Добавить новую информацию</h1>
+            <hr class="admin__line">
+            <div class="admin__buttons">
+                <button class="active">Памятники</button>
+                <button>Традиции и обычаи</button>
+                <button>Нематериальное наследие</button>
             </div>
-            
-            <div class="admin__form_flex">
-                <label for="description">Описание:</label>
-                <textarea id="description"></textarea>
+            <div class="admin__form">
+                <div class="admin__form_flex">
+                    <label for="title">Название:</label>
+                <input type="name" id="title" >
+                </div>
+                
+                <div class="admin__form_flex">
+                    <label for="description">Описание:</label>
+                    <textarea id="description"></textarea>
+                </div>
+                
+               <div class="admin__form_flex">
+                    <label for="image">Загрузка изображения:</label>
+                    <input type="file" id="image">
+               </div>
+                
+                <button>Добавить</button>
             </div>
-            
-           <div class="admin__form_flex">
-                <label for="image">Загрузка изображения:</label>
-                <input type="file" id="image">
-           </div>
-            
-            <button>Добавить</button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>

@@ -1,3 +1,9 @@
+$maxWidth: 1700;
+    @mixin adaptiv-font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 320;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+    }
 .uzgen-bg {
     background-image: url('../img/sulaimantoo/bg-section.svg');
     background-position: center;
@@ -21,10 +27,33 @@
         position: absolute;
         left: 5.5%;
         bottom: 100px;
-        font-size: 5rem;
+        @include adaptiv-font(80, 40);
             font-family: 'Alegreya', sans-serif;
             font-weight: 500;
             color: #fff;
+    }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 7%;
+        }
     }
 }
 
@@ -50,6 +79,7 @@
     &__img1, &__img2 {
         display: block;
         margin: 60px auto;
+        width: 100%;
     }
     &__title3 {
         margin-top: 40px;
@@ -90,5 +120,15 @@
     }
     iframe {
         margin: 60px 0;
+    }
+    @media (max-width: 1200px) {
+        iframe {
+            width: 90%;
+        }
+    }
+    @media (max-width: 520px) {
+        iframe {
+            width: 335px;
+        }
     }
 }

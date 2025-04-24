@@ -8,7 +8,7 @@
     font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
     }
     .hero {
-        background: url("../img/bg/Основная картина-горы.svg");
+        background: url("../img/bg/Основная картина-горы.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center ;
@@ -18,7 +18,7 @@
             display: flex;
             flex-direction: column;
             .hero__title {
-                margin-top: 200px; 
+                margin-top: 300px; 
                 font-family: "Alegreya", sans-serif;
                 // font-size: 56px;
                 @include adaptiv-font(56, 28);
@@ -45,10 +45,13 @@
         &__block-left {
             position: absolute;
             left: 0;
+            width: 15%;
+
         }
         &__block-right {
             position: absolute;
             right: 0;
+            width: 15%;
         }
         &__inner {
             display: flex;
@@ -61,6 +64,16 @@
                 font-weight: 300;
                 font-size: 32px;
                 text-align: center;
+            }
+        }
+        @media (max-width: 720px) {
+            .keeper__inner .keeper__text {
+                font-size: 25px;
+            }
+        }
+        @media (max-width: 470px) {
+            .keeper__inner .keeper__text {
+                font-size: 20px;
             }
         }
     }
@@ -93,7 +106,58 @@
             align-items: center;
             
         }
-        
+        @media (max-width: 1000px) and (min-width: 720px) {
+            .cultura__cards {
+                justify-content: center;
+                gap: 20px;
+            }
+            .cultura__card {
+                width: 60%;
+                img {
+                    width: 100%;
+                }
+            }
+            .cultura__title {
+                margin-bottom: 15px;
+                font-size: 18px;
+            }
+        }
+        @media (max-width: 720px) and (min-width: 580px) {
+            .cultura__cards {
+                justify-content: center;
+                flex-direction: column;
+                gap: 40px;
+            }
+            .cultura__card {
+                width: 70%;
+                img {
+                    width: 100%;
+                }
+            }
+            .cultura__title {
+                margin-bottom: 15px;
+                font-size: 18px;
+                
+            }
+        }
+        @media (max-width: 580px) {
+            .cultura__cards {
+                justify-content: center;
+                flex-direction: column;
+                gap: 40px;
+            }
+            .cultura__card {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .cultura__title {
+                margin-bottom: 15px;
+                font-size: 18px;
+                
+            }
+        }
     }
     .patterns {
         display: flex;
@@ -114,6 +178,7 @@
         img {
             width: 100%;
         }
+        
     }
 
     .historicalmonuments {
@@ -121,6 +186,7 @@
         .tradition-text {
             text-align: center;
             font-size: 30px;
+            padding: 0 20px;
         }
         &__wrapper {
             display: flex;
@@ -134,6 +200,26 @@
                 justify-content: center;
                 align-items: center;
                 font-weight: 500;
+            }
+        }
+        @media (max-width: 1100px) {
+            &__wrapper div {
+                font-size: 20px;
+                padding: 0 50px;
+            }
+            .tradition-text {
+                font-size: 24px !important;
+                padding: 0 50px;
+            }
+        }
+        @media (max-width: 800px) {
+            
+            &__wrapper img {
+                    display: none;
+            }
+            .tradition-text {
+                font-size: 22px !important;
+                padding: 0 50px;
             }
         }
     }
@@ -162,7 +248,7 @@
                 color: #000;
                 font-size: 24px;
                 font-family: 'Manrope', sans-serif;
-                font-weight: 700;
+                font-weight: 500;
                 background: #d9d9d942;
                 display: flex;
                 justify-content: center;
@@ -192,6 +278,12 @@
                 background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #82B6F2 100%);
             }
           }
+          @media (max-width: 1000px) {
+            &__cards {
+                justify-content: center;
+            }
+          }
+          
     }
 
     .goat {
@@ -200,6 +292,26 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+        }
+        @media (max-width: 1070px) {
+            .chu img {
+                width: 220px;    
+            }
+        }
+        @media (max-width: 820px) {
+            .chu img {
+                width: 180px;    
+            }
+        }
+        @media (max-width: 750px) {
+            &__wrapper img {
+                width: 150px !important;    
+            }
+        }
+        @media (max-width: 520px) {
+            &__wrapper img {
+                width: 120px !important;    
+            }
         }
     }
 
@@ -261,6 +373,19 @@
                 background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #82B6F2 100%);
             }
           }
+          @media (max-width: 1000px) {
+            &__cards {
+                justify-content: center;
+            }
+          }
+        //   @media (max-width: 500px) {
+        //     &__card {
+        //         width: 390px !important; 
+        //         img {
+        //             width: 100%;
+        //         }
+        //     }
+        //   }
     }
 
 
@@ -312,6 +437,25 @@
         &__img-bg2 {
             bottom: -90px;
             right: 20px;
+        }
+        @media (max-width: 1280px) {
+            &__img-bg1, 
+            &__img-bg2 {
+                width: 300px !important;
+            }
+        }
+        @media (max-width: 1000px) {
+            &__img-bg1, 
+            &__img-bg2 {
+                width: 230px !important;
+            }
+        }
+        
+        @media (max-width: 690px) {
+            &__img-bg1, 
+            &__img-bg2 {
+                display: none;
+            }
         }
     }
     
@@ -368,6 +512,11 @@
               background: linear-gradient(180deg, #E6E3E3 60%, #e7e7e7 83%, #B1703C 100%);
             }
           }
+          @media (max-width: 1004px) {
+            &__cards {
+                justify-content: center;
+            }
+        }
     }
 
 
@@ -408,6 +557,29 @@
                 font-family: 'Alegreya', sans-serif;
                 font-weight: 500;
                 color: #fff;
+            }
+        }
+        @media (max-width: 1300px) {
+            &__wrapper {
+                height: 80vh;
+            }
+        }
+        @media (max-width: 890px) {
+            &__wrapper {
+                height: 65vh;
+            }
+        }
+        @media (max-width: 550px) {
+            &__wrapper {
+                height: 55vh;
+            }
+        }
+        @media (max-width: 450px) {
+            &__wrapper {
+                height: 40vh;
+            }
+            &__title {
+                left: 7%;
             }
         }
     }
@@ -472,7 +644,27 @@
             flex-wrap: wrap;
             gap: 20px;
         }
-        
+        @media (max-width: 1062px) {
+            &__gallery {
+                justify-content: center !important;
+                padding: 20px;
+            }
+        }
+        @media (max-width: 700px) {
+            iframe {
+                width: 80%;
+            }
+        }
+        @media (max-width: 520px) {
+            &__gallery {
+                img {
+                    width: 370px;
+                }
+            }
+            iframe {
+                width: 335px;
+            }
+        }
     }
     
     // Колыбель

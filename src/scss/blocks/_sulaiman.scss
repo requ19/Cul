@@ -1,3 +1,9 @@
+$maxWidth: 1700;
+    @mixin adaptiv-font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 320;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+    }
 .sulaiman-bg {
     background-image: url('../img/sulaimantoo/bg-section.svg');
     background-position: center;
@@ -20,13 +26,37 @@
         position: absolute;
         right: 5.5%;
         bottom: 100px;
-        font-size: 5rem;
         h1 {
             font-family: 'Alegreya', sans-serif;
             font-weight: 500;
             color: #fff;
+            @include adaptiv-font(80, 40);
+
         }
-    }   
+    }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            right: 7%;
+        }
+    }      
 }
 .sulaiman-info {
     padding: 60px 0 0 0;
@@ -56,6 +86,7 @@
     &__img {
         display: flex;
         margin: 60px auto;
+        width: 80%;
     }
 }
 .sulaiman-places {
@@ -102,11 +133,14 @@
         justify-content: center;
         gap: 30px;
         margin: 60px 0;
+        flex-wrap: wrap;
+        
     }
     &__img2 {
         display: flex;
         justify-content: center;
         gap: 30px;
+        flex-wrap: wrap;
         margin: 60px 0;
     }
     &__list-center {
@@ -126,6 +160,21 @@
             font-size: 1.5rem;
             color: #000;
             font-weight: 500;
+        }
+    }
+    @media (max-width: 700px) {
+        &__img1 {
+            img {
+                width: 100%;
+            }
+        }
+        &__img2 {
+            img {
+                width: 100%;
+            }
+        }
+        &__list-center {
+            padding: 0;
         }
     }
 }
@@ -165,14 +214,17 @@
     }
     &__img1 {
         display: flex;
+        width: 80%;
         margin: 60px auto;
     }
     &__img2 {
         display: flex;
         margin: 60px auto;
+        width: 80%;
     }
     &__img3 {
         display: flex;
+        width: 80%;
         margin: 60px auto;
     }
     &__map {
@@ -183,5 +235,15 @@
     }
     iframe {
         margin: 60px 0;
+    }
+    @media (max-width: 1200px) {
+        iframe {
+            width: 90%;
+        }
+    }
+    @media (max-width: 520px) {
+        iframe {
+            width: 335px;
+        }
     }
 }
