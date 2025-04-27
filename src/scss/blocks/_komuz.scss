@@ -34,6 +34,52 @@
         left: 5.5%;
         bottom: 45%;
     }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+        &__subtitle {
+            font-size: 2rem;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+        &__title {
+            font-size: 4rem;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+        &__title {
+            bottom: 70%;
+            font-size: 3.5rem;
+            left: 10%;
+        }
+        &__subtitle {
+            left: 10%;
+            bottom: 55%;
+            font-size: 2rem;
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 10%;
+            bottom: 70%;
+            font-size: 2.5rem;
+        }
+        &__subtitle {
+            left: 10%;
+            bottom: 55%;
+            font-size: 1.5rem;
+        }
+    }
 }
 
 .komuz-second {
@@ -65,19 +111,20 @@
 
     }
     &__img1 {
-        display: flex;
-        justify-content: center;
-
+        display: block;
         margin: 60px auto;
     }
     &__img2 {
         display: flex;
         justify-content: center;
         margin: 60px auto;
+        width: 90%;
     }
     &__img3 {
         display: block;
         margin: 60px auto;
+        width: 90%;
+
     }
     &__img4 {
         display: flex;
@@ -107,5 +154,51 @@
     }
     iframe {
         border-radius: 15px;
+        width: 80%;
+    }
+    @media (max-width: 1250px) {
+        &__img4 {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media (max-width: 1100px) {
+        &__img2 {
+           width: 90%; 
+        }
+        &__img3 {
+            width: 90%; 
+         }
+    }
+    @media (max-width: 670px) {
+        
+        p {
+            font-size: 17px;
+        }
+        li {
+            font-size: 17px;
+        }
+        iframe {
+            width: 95%;
+            height: 40vh;
+        }
+        &__img1 {
+            width: 100%;
+            margin: 10px auto;
+        }
+        &__img2 {
+            width: 100%; 
+            margin: 10px auto;
+         }
+        &__img3 {
+            width: 100%; 
+            margin: 10px auto;
+         }
+         &__img4 {
+            margin: 10px auto;
+            img {
+                width: 100%;
+            }
+         }
     }
 }

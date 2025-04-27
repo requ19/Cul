@@ -34,6 +34,40 @@
         left: 5.5%;
         bottom: 20%;
     }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+        &__title {
+            font-size: 4rem;
+            bottom: 80px;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+        &__title {
+            bottom: 50px;
+            font-size: 3.5rem;
+
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 10%;
+            bottom: 50px;
+            font-size: 2.5rem;
+        }
+    }
 }
 
 .yurt-second {
@@ -65,24 +99,23 @@
 
     }
     &__img1 {
-        display: flex;
-        justify-content: center;
-
+        display: block;
+        width: 80%;
         margin: 60px auto;
     }
     &__img2 {
-        display: flex;
-        justify-content: center;
-        margin: 60px 0;
+        width: 80%;
+        margin: 60px auto;
+        display: block;
     }
     &__img3 {
         display: block;
         margin: 60px auto;
+        width: 80%;
     }
     &__img4 {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
+        display: block;
+        width: 80%;
         margin: 60px auto;
     }
     &__watch {
@@ -92,5 +125,29 @@
         font-weight: 700;
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+    @media (max-width: 950px) {
+        p {
+            font-size: 20px;
+        }
+        img {
+            width: 90%;
+        }
+    }
+    @media (max-width: 570px) {
+        p {
+            font-size: 17px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    @media (max-width: 400px) {
+        p {
+            font-size: 14px;
+        }
+        img {
+            width: 100%;
+        }
     }
 }

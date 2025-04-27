@@ -25,6 +25,40 @@
             font-weight: 500;
             color: #fff;
     }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+        &__title {
+            font-size: 4rem;
+            bottom: 80px;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+        &__title {
+            bottom: 50px;
+            font-size: 3.5rem;
+
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 10%;
+            bottom: 50px;
+            font-size: 2.5rem;
+        }
+    }
 }
 
 .kokboru-second {
@@ -48,9 +82,8 @@
 
     }
     &__img1 {
-        display: flex;
-        justify-content: center;
-
+        display: block;
+        width: 90%;
         margin: 60px auto;
     }
     &__img2 {
@@ -62,12 +95,7 @@
     &__img3 {
         display: block;
         margin: 60px auto;
-    }
-    &__img4 {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-        margin: 60px auto;
+        width: 90%;
     }
     &__list1 {
         display: flex;
@@ -79,6 +107,49 @@
             font-size: 1.5rem;
             color: #000;
             font-weight: 500;
+        }
+    }
+    @media (max-width: 1400px) {
+        p, li {
+            font-size: 20px;
+        }
+        &__img1, &__img2, &__img3 {
+            margin: 30px auto;
+        }
+        &__img2 {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media (max-width: 660px) {
+        p, li {
+            font-size: 16px;
+        }
+        &__img1, &__img2, &__img3 {
+            margin: 20px auto;
+        }
+        &__img2 {
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 97%;
+            }
+        }
+    }
+    @media (max-width: 460px) {
+        p, li {
+            font-size: 14px;
+        }
+        &__img1, &__img2, &__img3 {
+            margin: 5px auto;
+            width: 105%;
+        }
+        &__img2 {
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 98%;
+            }
         }
     }
 }

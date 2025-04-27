@@ -25,6 +25,40 @@
             font-weight: 500;
             color: #fff;
     }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+        &__title {
+            font-size: 4rem;
+            bottom: 80px;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+        &__title {
+            bottom: 50px;
+            font-size: 3.5rem;
+
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 10%;
+            bottom: 50px;
+            font-size: 2.5rem;
+        }
+    }
 }
 
 .aitysh-second {
@@ -48,22 +82,11 @@
 
     }
     &__img1 {
-        display: flex;
-        justify-content: center;
-
+        display: block;
+        width: 95%;
         margin: 60px auto;
     }
     &__img2 {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-        margin: 60px auto;
-    }
-    &__img3 {
-        display: block;
-        margin: 60px auto;
-    }
-    &__img4 {
         display: flex;
         justify-content: center;
         gap: 40px;
@@ -93,5 +116,46 @@
             color: #000;
             font-weight: 500;
         }
+    }
+    @media (max-width: 1440px) {
+        &__img2 {
+            flex-wrap: wrap;
+            margin: 30px auto;
+        }
+        p, li {
+            font-size: 20px;
+        }
+    }
+    @media (max-width: 840px) {
+        &__img1 {
+            margin: 20px auto;
+        }
+        &__img2 {
+            flex-wrap: wrap;
+            margin: 20px auto;
+            img {
+                width: 50%;
+            }
+        }
+        p, li {
+            font-size: 17px;
+        }
+    }
+    @media (max-width: 440px) {
+        p, li {
+            font-size: 15px;
+        }
+        &__img1 {
+            margin: 5px auto;
+            width: 100%;
+        }
+        &__img2 {
+            flex-wrap: wrap;
+            margin: 10px auto;
+            img {
+                width: 80%;
+            }
+        }
+
     }
 }

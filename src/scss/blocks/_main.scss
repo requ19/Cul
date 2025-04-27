@@ -283,6 +283,17 @@
                 justify-content: center;
             }
           }
+          @media (max-width: 450px) {
+            &__cards {
+                justify-content: center;
+            }
+            &__card {
+                width: 330px;
+                img {
+                    width: 100%;
+                }
+            }
+          }
           
     }
 
@@ -310,7 +321,7 @@
         }
         @media (max-width: 520px) {
             &__wrapper img {
-                width: 120px !important;    
+                width: 110px !important;    
             }
         }
     }
@@ -378,14 +389,17 @@
                 justify-content: center;
             }
           }
-        //   @media (max-width: 500px) {
-        //     &__card {
-        //         width: 390px !important; 
-        //         img {
-        //             width: 100%;
-        //         }
-        //     }
-        //   }
+          @media (max-width: 450px) {
+            &__cards {
+                justify-content: center;
+            }
+            &__card {
+                width: 330px;
+                img {
+                    width: 100%;
+                }
+            }
+          }
     }
 
 
@@ -402,7 +416,7 @@
             width: 100%;
             height: 100%;
             background: #e8c9a136;
-            filter: blur(80px); // Применяем блюр только к фону
+            filter: blur(80px); 
             z-index: 1;
             border-radius: 16px;
         }
@@ -413,20 +427,20 @@
             align-items: center;
             padding: 150px 0;
             position: relative;
-            z-index: 2; // Поднимаем контент выше блюра
+            z-index: 2; 
         }
     
         &__text {
             @include adaptiv-font(30, 15);
             font-family: 'Nunito', sans-serif;
             text-align: center;
-            z-index: 2; // Поднимаем текст выше блюра
+            z-index: 2;
         }
     
         &__img-bg1, 
         &__img-bg2 {
             position: absolute;
-            z-index: 2; // Поднимаем изображения выше блюра
+            z-index: 2;
         }
     
         &__img-bg1 {
@@ -455,6 +469,9 @@
             &__img-bg1, 
             &__img-bg2 {
                 display: none;
+            }
+            &__wrapper {
+                padding: 5px 0;
             }
         }
     }
@@ -517,6 +534,17 @@
                 justify-content: center;
             }
         }
+        @media (max-width: 450px) {
+            &__cards {
+                justify-content: center;
+            }
+            &__card {
+                width: 330px;
+                img {
+                    width: 100%;
+                }
+            }
+          }
     }
 
 
@@ -671,10 +699,49 @@
 
 
     .lullaby {
+        position: relative;
         padding: 25px;
         img {
             width: 100%;
-            
+        }
+        div {
+            position: absolute;
+            left: 5.5%;
+            bottom: 150px;
+            font-size: 5rem;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            color: #fff;
+        }
+        @media (max-width: 1200px) {
+            div {
+                bottom: 100px;
+            }
+        }
+        @media (max-width: 850px) {
+            div {
+                bottom: 90px;
+                font-size: 4rem;
+            }
+        }
+        @media (max-width: 700px) {
+            div {
+                bottom: 80px;
+                font-size: 3rem;
+            }
+        }
+        @media (max-width: 550px) {
+            div {
+                bottom: 60px;
+                font-size: 2.5rem;
+            }
+        }
+        @media (max-width: 400px) {
+            div {
+                bottom: 60px;
+                font-size: 2rem;
+                left: 10%;
+            }
         }
     }
     .lullabyinfo {
@@ -734,6 +801,36 @@
                 font-family: 'Nunito', sans-serif;
                 font-weight: 500;
                 margin: 40px 0 65px 0;
+            }
+        }
+        @media (max-width: 1100px) {
+            &__text {
+                div {
+                    font-size: 22px;
+                }
+                img {
+                    width: 450px;
+                }
+            }
+        }
+        @media (max-width: 800px) {
+            &__text {
+                div {
+                    font-size: 19px;
+                }
+                img {
+                    width: 70%;
+                }
+            }
+        }
+        @media (max-width: 500px) {
+            &__text {
+                img {
+                    width: 300px;
+                }
+                div {
+                    font-size: 16px;
+                }
             }
         }
     }

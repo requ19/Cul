@@ -25,6 +25,29 @@
             font-weight: 500;
             color: #fff;
     }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 7%;
+        }
+    }
 }
 
 .wedding-second {
@@ -50,6 +73,10 @@
     &__img1, &__img2 {
         display: block;
         margin: 60px auto;
+        width: 40%;
+    }
+    &__img1 {
+        width: 70%;
     }
     &__list1 {
         display: flex;
@@ -63,14 +90,25 @@
             font-weight: 500;
         }
     }
-    &__map {
-        font-family:'Nunito', sans-serif;
-        color: #000;
-        font-size: 1.8rem;
-        font-weight: 700; 
-        margin-top: 80px;  
+    @media (max-width: 870px) {
+        &__img1 {
+            width: 80%;
+        margin: 30px auto;
+        }
+        &__img2 {  
+            width: 70%;
+            margin: 20px auto;
+        }
     }
-    iframe {
-        margin: 60px 0;
+    @media (max-width: 520px) {
+        &__img1 {
+            width: 100%;
+            margin: 20px auto;
+
+        }
+        &__img2 {  
+            margin: 20px auto;
+            width: 100%;
+        }
     }
 }

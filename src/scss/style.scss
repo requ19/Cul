@@ -122,4 +122,15 @@ html, body {
             margin: 15px;
         }
     }
+    @media (max-width: 450px) {
+      &__cards {
+          justify-content: center;
+      }
+      &__card {
+          width: 330px;
+          img {
+              width: 100%;
+          }
+      }
+    }
 }

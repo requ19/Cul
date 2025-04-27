@@ -34,6 +34,54 @@
         left: 5.5%;
         bottom: 20%;
     }
+    @media (max-width: 1300px) {
+        &__wrapper {
+            height: 80vh;
+        }
+        &__subtitle {
+            bottom: 20%;
+            font-size: 2rem;
+        }
+    }
+    @media (max-width: 890px) {
+        &__wrapper {
+            height: 65vh;
+        }
+        &__title {
+            font-size: 4rem;
+            bottom: 32%;
+        }
+    }
+    @media (max-width: 550px) {
+        &__wrapper {
+            height: 55vh;
+        }
+        &__title {
+            bottom: 25%;
+            font-size: 3.5rem;
+            left: 10%;
+        }
+        &__subtitle {
+            left: 10%;
+            bottom: 50px;
+            font-size: 2rem;
+        }
+    }
+    @media (max-width: 450px) {
+        &__wrapper {
+            height: 40vh;
+        }
+        &__title {
+            left: 10%;
+            bottom: 25%;
+            font-size: 2.5rem;
+        }
+        &__subtitle {
+            left: 10%;
+            bottom: 30px;
+            font-size: 1.5rem;
+        }
+    }
 }
 
 .shyrdak-second {
@@ -89,5 +137,102 @@
     }
     iframe {
         border-radius: 15px;
+    }
+    @media (max-width: 1390px) {
+        &__img1 {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img2 {
+            flex-direction: column;
+            align-items: center;
+
+        }
+        &__img3 {
+            img {
+                width: 100%;
+            }
+
+        }
+        &__img4 {
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+        iframe {
+            width: 90%;
+        }
+    }
+    @media (max-width: 740px) {
+        p {
+            font-size: 20px;
+        }
+        &__img1 {
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 95%;
+            }
+        }
+        &__img2 {
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 95%;
+            }
+        }
+        &__img3 {
+            img {
+                width: 100%;
+            }
+
+        }
+        &__img4 {
+            flex-wrap: wrap;
+            align-items: center;
+            img {
+                width: 60%;
+            }
+        }
+        iframe {
+            width: 97%;
+        }
+    }
+    
+    @media (max-width: 440px) {
+        p {
+            font-size: 16px;
+        }
+        &__img1 {
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 95%;
+            }
+        }
+        &__img2 {
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
+        &__img3 {
+            img {
+                width: 100%;
+            }
+
+        }
+        &__img4 {
+            flex-wrap: wrap;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
+        iframe {
+            width: 97%;
+            height: 40vh;
+        }
     }
 }
