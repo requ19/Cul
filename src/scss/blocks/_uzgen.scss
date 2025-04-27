@@ -46,13 +46,18 @@ $maxWidth: 1700;
         &__wrapper {
             height: 55vh;
         }
+        &__title {
+            left: 10%;
+            font-size: 2.2rem;
+        }
     }
     @media (max-width: 450px) {
         &__wrapper {
             height: 40vh;
         }
         &__title {
-            left: 7%;
+            left: 10%;
+            font-size: 1.9rem;
         }
     }
 }
@@ -125,10 +130,28 @@ $maxWidth: 1700;
         iframe {
             width: 90%;
         }
+        p, li {
+            font-size: 20px;
+        }
     }
     @media (max-width: 520px) {
         iframe {
             width: 335px;
+        }
+        p, li {
+            font-size: 17px;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+        &__img1 {
+            margin: 10px auto;
+        }
+        &__img2 {
+            margin: 10px auto;
+        }
+        &__map {
+            font-size: 18px;
         }
     }
 }

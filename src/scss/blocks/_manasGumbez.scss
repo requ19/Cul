@@ -46,6 +46,10 @@ $maxWidth: 1700;
         &__wrapper {
             height: 55vh;
         }
+        &__title {
+            left: 7%;
+            font-size: 2.2rem;
+        }
     }
     @media (max-width: 450px) {
         &__wrapper {
@@ -53,6 +57,7 @@ $maxWidth: 1700;
         }
         &__title {
             left: 7%;
+            font-size: 1.7rem;
         }
     }
 }
@@ -98,15 +103,34 @@ $maxWidth: 1700;
         iframe {
             width: 80%;
         }
+        p, li {
+            font-size: 20px;
+        }
     }
     @media (max-width: 700px) {
         iframe {
             width: 90%;
         }
+        &__img1 {
+            margin: 10px auto;
+        }
         &__img2 {
+            margin: 20px auto;
             img {
                 width: 100%;
             }
+        }
+        &__img3 {
+            margin: 10px auto;
+        }
+        p, li {
+            font-size: 16px;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        &__map {
+            font-size: 18px;
         }
     }
 }

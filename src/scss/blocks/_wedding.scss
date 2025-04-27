@@ -99,6 +99,9 @@
             width: 70%;
             margin: 20px auto;
         }
+        p, li {
+            font-size: 20px;
+        }
     }
     @media (max-width: 520px) {
         &__img1 {
@@ -109,6 +112,9 @@
         &__img2 {  
             margin: 20px auto;
             width: 100%;
+        }
+        p, li {
+            font-size: 17px;
         }
     }
 }

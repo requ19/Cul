@@ -88,6 +88,21 @@ $maxWidth: 1700;
         margin: 60px auto;
         width: 80%;
     }
+    @media (max-width: 700px) {
+        p, li {
+            font-size: 17px;
+        }
+        h2 {
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+        &__img {
+            margin: 15px auto;
+            width: 100%;
+        }
+    }
 }
 .sulaiman-places {
     &__text1,  &__text2,  &__text3, &__text4, &__text5, &__text6 {
@@ -163,18 +178,32 @@ $maxWidth: 1700;
         }
     }
     @media (max-width: 700px) {
+        p, li {
+            font-size: 20px;
+        }
         &__img1 {
+            margin: 20px auto;
+
             img {
                 width: 100%;
             }
         }
         &__img2 {
+            margin: 20px auto;
             img {
                 width: 100%;
             }
         }
         &__list-center {
             padding: 0;
+        }
+    }
+    @media (max-width: 400px) {
+        p, li {
+            font-size: 17px;
+        }
+        h3 {
+            font-size: 1.2rem;
         }
     }
 }
@@ -240,10 +269,23 @@ $maxWidth: 1700;
         iframe {
             width: 90%;
         }
+        p, li {
+            font-size: 20px;
+        }
     }
     @media (max-width: 520px) {
         iframe {
             width: 335px;
+        }
+        p, li {
+            font-size: 16px;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+        &__img1, &__img2, &__img3 {
+            margin: 15px auto;
+            width: 100%;
         }
     }
 }

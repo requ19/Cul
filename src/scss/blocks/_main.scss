@@ -677,10 +677,16 @@
                 justify-content: center !important;
                 padding: 20px;
             }
+            p, li {
+                font-size: 20px;
+            }
         }
         @media (max-width: 700px) {
             iframe {
                 width: 80%;
+            }
+            p, li {
+                font-size: 17px;
             }
         }
         @media (max-width: 520px) {
@@ -691,6 +697,9 @@
             }
             iframe {
                 width: 335px;
+            }
+            p, li {
+                font-size: 14px;
             }
         }
     }

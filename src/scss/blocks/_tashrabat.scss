@@ -84,12 +84,20 @@ $maxWidth: 1700;
     }
     @media (max-width: 700px) {
         &__img2 {
+            margin: 20px auto;
             img {
                 width: 100%;
             }
         }
+        &__img1 {
+            margin: 20px auto;
+            width: 100%;
+        }
         &__list-center {
             padding: 0;
+        }
+        p, li {
+            font-size: 16px;
         }
     }
 }
@@ -132,9 +140,13 @@ $maxWidth: 1700;
         iframe {
             width: 90%;
         }
+        p, li {
+            font-size: 20px;
+        }
     }
     @media (max-width: 700px) {
         &__img1 {
+            margin: 20px auto;
             img {
                 width: 100%;
             }
@@ -144,6 +156,16 @@ $maxWidth: 1700;
         }
         iframe {
             width: 90%;
+        }
+        p, li {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        &__map {
+            font-size: 19px;
+
         }
     }
 }

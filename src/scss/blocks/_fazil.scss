@@ -104,10 +104,26 @@ $maxWidth: 1700;
         iframe {
             width: 90%;
         }
+        p, li {
+            font-size: 20px;
+        }
     }
     @media (max-width: 520px) {
         iframe {
             width: 335px;
+        }
+        p, li {
+            font-size: 17px;
+        }
+        h3 {
+            font-size: 1.4rem;
+        }
+        &__map {
+            font-size: 18px;
+        }
+        &__img1, &__img2, &__img3 {
+            margin: 10px auto;
+            width: 100%;
         }
     }
 }
