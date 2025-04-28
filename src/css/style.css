@@ -154,6 +154,63 @@
   color: #fff;
   margin-top: 15px;
 }
+@media (max-width: 1200px) {
+  .main .hero {
+    height: 70vh;
+  }
+  .main .hero__title {
+    margin-top: 260px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .main .hero {
+    height: 62vh;
+  }
+  .main .hero__title {
+    margin-top: 230px !important;
+    font-size: 35px !important;
+  }
+  .main .hero__subtitle {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 880px) {
+  .main .hero {
+    height: 50vh;
+  }
+  .main .hero__title {
+    margin-top: 200px !important;
+    font-size: 30px !important;
+  }
+  .main .hero__subtitle {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 650px) {
+  .main .hero {
+    height: 40vh;
+  }
+  .main .hero__title {
+    margin-top: 150px !important;
+    font-size: 25px !important;
+  }
+  .main .hero__subtitle {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 400px) {
+  .main .hero {
+    height: 33vh;
+  }
+  .main .hero__title {
+    margin-top: 100px !important;
+    font-size: 22px !important;
+  }
+  .main .hero__subtitle {
+    font-size: 14px !important;
+    margin-top: 2px !important;
+  }
+}
 .main .keeper {
   position: relative;
   padding: 130px 0 50px 0;
@@ -187,8 +244,11 @@
   }
 }
 @media (max-width: 470px) {
+  .main .keeper .keeper__inner {
+    padding: 20px;
+  }
   .main .keeper .keeper__inner .keeper__text {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 .main .cultura {
