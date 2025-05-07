@@ -479,7 +479,9 @@
             z-index: 1;
             border-radius: 16px;
         }
-    
+        .padd-kg {
+            padding: 100px;
+        }
         &__wrapper {
             display: flex;
             justify-content: center;
@@ -522,6 +524,9 @@
             &__img-bg2 {
                 width: 230px !important;
             }
+            .padd-kg {
+                padding: 20px;
+            }
         }
         
         @media (max-width: 690px) {
@@ -531,6 +536,9 @@
             }
             &__wrapper {
                 padding: 5px 0;
+            }
+            .padd-kg {
+                padding: 0px;
             }
         }
     }

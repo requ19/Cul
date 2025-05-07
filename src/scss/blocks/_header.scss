@@ -8,7 +8,17 @@
       justify-content: space-between;
       height: 105px;
       position: relative;
-  
+      .lung {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a {
+          color: #000;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: "Manrope", sans-serif;
+        }
+      }
       .logo {
         font-size: 30px;
         font-weight: 700;

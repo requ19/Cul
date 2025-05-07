@@ -13,6 +13,17 @@
   height: 105px;
   position: relative;
 }
+.header .nav .lung {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .nav .lung a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
 .header .nav .logo {
   font-size: 30px;
   font-weight: 700;
@@ -559,6 +570,9 @@
   z-index: 1;
   border-radius: 16px;
 }
+.main .heritage .padd-kg {
+  padding: 100px;
+}
 .main .heritage__wrapper {
   display: flex;
   justify-content: center;
@@ -594,6 +608,9 @@
   .main .heritage__img-bg1, .main .heritage__img-bg2 {
     width: 230px !important;
   }
+  .main .heritage .padd-kg {
+    padding: 20px;
+  }
 }
 @media (max-width: 690px) {
   .main .heritage__img-bg1, .main .heritage__img-bg2 {
@@ -601,6 +618,9 @@
   }
   .main .heritage__wrapper {
     padding: 5px 0;
+  }
+  .main .heritage .padd-kg {
+    padding: 0px;
   }
 }
 .main .heritageAlbom {
