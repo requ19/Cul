@@ -68,6 +68,9 @@ $maxWidth: 1700;
         color: #000;
         font-weight: 700;
     }
+    &__title1 {
+        margin-top: 60px;
+    }
     @for $i from 1 through 11 {
         &__text#{$i} {
             font-family:'Nunito', sans-serif;

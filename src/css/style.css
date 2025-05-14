@@ -804,6 +804,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  margin: 60px 0;
 }
 @media (max-width: 1062px) {
   .main .buranainfo__gallery {
@@ -820,6 +821,9 @@
   }
   .main .buranainfo p, .main .buranainfo li {
     font-size: 17px;
+  }
+  .main .buranainfo__gallery {
+    margin: 30px 0;
   }
 }
 @media (max-width: 520px) {
@@ -883,6 +887,7 @@
   margin-top: 75px;
   padding: 20px 25px;
   background: rgba(232, 201, 161, 0.1921568627);
+  box-shadow: 0px 0px 53px 15px rgba(255, 221, 177, 0.4);
 }
 .main .lullabyinfo img {
   width: 50%;
@@ -1397,6 +1402,9 @@
   color: #000;
   font-weight: 700;
 }
+.tashrabat-second__title1 {
+  margin-top: 60px;
+}
 .tashrabat-second__text1, .tashrabat-second__text2, .tashrabat-second__text3, .tashrabat-second__text4, .tashrabat-second__text5, .tashrabat-second__text6 {
   font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
@@ -1414,6 +1422,7 @@
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  margin: 60px auto;
 }
 @media (max-width: 700px) {
   .tashrabat-second__img2 {
@@ -1434,12 +1443,18 @@
   }
 }
 
+.tashrabat-third {
+  padding: 0;
+}
 .tashrabat-third__title1, .tashrabat-third__title2 {
   font-family: "Nunito", sans-serif;
   font-size: 2rem;
   color: #000;
   font-weight: 700;
   padding: 60px 0 0 0;
+}
+.tashrabat-third__title1 {
+  padding: 0;
 }
 .tashrabat-third__text1, .tashrabat-third__text2, .tashrabat-third__text3, .tashrabat-third__text4, .tashrabat-third__text5 {
   font-family: "Nunito", sans-serif;
@@ -1493,7 +1508,7 @@
     font-size: 15px;
   }
   .tashrabat-third h3 {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   .tashrabat-third__map {
     font-size: 19px;
@@ -1562,6 +1577,9 @@
   font-size: 2rem;
   color: #000;
   font-weight: 700;
+}
+.manas-second__title1 {
+  margin-top: 60px;
 }
 .manas-second__text1 {
   font-family: "Nunito", sans-serif;
@@ -1860,6 +1878,9 @@
   color: #000;
   font-weight: 700;
 }
+.uzgen-second__title1 {
+  margin-top: 60px;
+}
 .uzgen-second__img1, .uzgen-second__img2 {
   display: block;
   margin: 60px auto;
@@ -2072,6 +2093,9 @@
   font-size: 2rem;
   color: #000;
   font-weight: 700;
+}
+.fazil-second__title1 {
+  margin-top: 60px;
 }
 .fazil-second__text1 {
   margin-top: 0;
@@ -4045,7 +4069,7 @@
 }
 .komuz-second iframe {
   border-radius: 15px;
-  width: 80%;
+  width: 50%;
 }
 @media (max-width: 1250px) {
   .komuz-second__img4 {
@@ -4059,6 +4083,10 @@
   }
   .komuz-second__img3 {
     width: 90%;
+  }
+  .komuz-second iframe {
+    border-radius: 15px;
+    width: 70%;
   }
 }
 @media (max-width: 670px) {
