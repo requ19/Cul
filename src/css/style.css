@@ -138,7 +138,7 @@
   flex: 1 1 auto;
 }
 .main .hero {
-  background: url("../img/bg/Основная картина-горы.jpg");
+  background: url("../img/bg/Основная картина-горы.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

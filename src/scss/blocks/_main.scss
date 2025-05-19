@@ -8,7 +8,7 @@
     font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
     }
     .hero {
-        background: url("../img/bg/Основная картина-горы.jpg");
+        background: url("../img/bg/Основная картина-горы.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center ;
